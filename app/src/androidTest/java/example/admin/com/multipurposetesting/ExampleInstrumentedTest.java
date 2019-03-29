@@ -1,4 +1,4 @@
-package fastnetwork.admin.com.multipurposetesting;
+package example.admin.com.multipurposetesting;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

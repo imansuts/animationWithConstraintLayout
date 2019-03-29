@@ -1,10 +1,9 @@
-package fastnetwork.admin.com.multipurposetesting;
+package example.admin.com.multipurposetesting;
 
 import android.animation.LayoutTransition;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
-import android.graphics.PorterDuff;
 import android.os.Build;
 import android.os.Handler;
 import android.support.constraint.ConstraintLayout;
@@ -12,14 +11,10 @@ import android.support.constraint.ConstraintSet;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.ScaleAnimation;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {

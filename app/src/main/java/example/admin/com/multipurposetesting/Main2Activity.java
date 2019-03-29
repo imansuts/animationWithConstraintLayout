@@ -1,7 +1,6 @@
-package fastnetwork.admin.com.multipurposetesting;
+package example.admin.com.multipurposetesting;
 
 import android.animation.LayoutTransition;
-import android.content.Intent;
 import android.os.Build;
 import android.support.constraint.ConstraintLayout;
 import android.support.constraint.ConstraintSet;
