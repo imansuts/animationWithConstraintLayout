@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/tvText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:drawablePadding="8dp"
+        android:minWidth="30dp"
+        android:inputType="textNoSuggestions"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableEnd="@drawable/search"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvvvv"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Text"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:id="@+id/tvvvv"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/ttvv"
+        android:text="adasd"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

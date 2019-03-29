@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llRoot"
+    android:animateLayoutChanges="true"
+    tools:context=".Main2Activity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/search_colour"
+        app:fabSize="auto"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:paddingEnd="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/fab"
+        app:layout_constraintTop_toTopOf="@+id/fab"
+        app:layout_constraintEnd_toEndOf="@+id/fab">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/img_one"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/img_two"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/img_three"
+            android:src="@drawable/ic_launcher_background"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
